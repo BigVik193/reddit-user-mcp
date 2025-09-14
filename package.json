@@ -1,0 +1,24 @@
+{
+	"name": "@reddable/reddit-user-mcp",
+	"version": "1.0.0",
+	"description": "Reddit User MCP Server - Access Reddit posts, comments, and interact with Reddit via MCP",
+	"main": "index.js",
+	"module": "./src/index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "npx @smithery/cli dev",
+		"build": "npx @smithery/cli build"
+	},
+	"keywords": ["mcp", "reddit", "model-context-protocol", "ai-assistant", "reddable"],
+	"author": "Reddable Team",
+	"license": "MIT",
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.17.4",
+		"axios": "^1.12.1",
+		"zod": "^3.25.46"
+	},
+	"devDependencies": {
+		"@smithery/cli": "^1.2.4",
+		"tsx": "^4.19.4"
+	}
+}

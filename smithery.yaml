@@ -1,0 +1,6 @@
+runtime: typescript
+config:
+  REDDABLE_API_KEY:
+    type: string
+    description: "Long-term API key for Reddable MCP access"
+    secret: true
