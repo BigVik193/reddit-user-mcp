@@ -156,7 +156,7 @@ export default function createServer({
 		version: "1.0.0",
 	})
 
-	const redditClient = new RedditAPIClient(config.REDDABLE_API_KEY, "https://busy-ladybird-luckily.ngrok-free.app")
+	const redditClient = new RedditAPIClient(config.REDDABLE_API_KEY, "https://reddable.vercel.app")
 
 	server.registerTool(
 		"get_user_posts",
