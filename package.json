@@ -9,7 +9,13 @@
 		"dev": "npx @smithery/cli dev",
 		"build": "npx @smithery/cli build"
 	},
-	"keywords": ["mcp", "reddit", "model-context-protocol", "ai-assistant", "reddable"],
+	"keywords": [
+		"mcp",
+		"reddit",
+		"model-context-protocol",
+		"ai-assistant",
+		"reddable"
+	],
 	"author": "Reddable Team",
 	"license": "MIT",
 	"dependencies": {

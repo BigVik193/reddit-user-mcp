@@ -1,9 +1,6 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js"
 import { z } from "zod"
 import axios, { AxiosInstance } from "axios"
-import * as dotenv from "dotenv"
-
-dotenv.config()
 
 interface RedditPost {
 	id: string
